@@ -1,0 +1,103 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #f4f4f4;
+}
+
+.nav-item {
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+}
+
+.main-content {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2em;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 0.5em;
+  padding: 3em;
+}
+
+.main-paragraph {
+  width: 65%;
+  text-align: center;
+}
+
+.people-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+  gap: 10px;
+}
+
+.person {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3em;
+  height: 3em;
+  background-color: blueviolet;
+  border-radius: 50%;
+}
+
+.main-cards {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin-top: 2em;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 12em;
+  height: 16em;
+  border-radius: 10px;
+  border: 1px solid #000;
+}
+
+.card h3 {
+  text-align: center;
+  margin: 0 1em;
+  border-bottom: 1px solid #000;
+}
+
+.project-activity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2em;
+  width: 100%;
+}
+
+.project-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.project-content {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  margin-top: 2em;
+  width: 100%;
+}
+
+.column {
+  width: 50%;
+}
